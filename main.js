@@ -13,19 +13,12 @@ fs.writeFileSync(require('os').homedir()+'/.m2/settings.xml', '<settings xmlns="
     <profile>
       <id>github</id>
 	  <properties>
-        <altDeploymentRepository>github::default::https://maven.pkg.github.com/Unknow0/unknow-common</altDeploymentRepository>
+        <altDeploymentRepository>github::default::https://maven.pkg.github.com/Unknow0/package</altDeploymentRepository>
       </properties>
       <repositories>
         <repository>
           <id>github</id>
-          <name>GitHub OWNER Apache Maven Packages</name>
-          <url>https://maven.pkg.github.com/Unknow0/unknow-common</url>
-        </repository>
-        <repository>
-          <id>central</id>
-          <url>https://repo1.maven.org/maven2</url>
-          <releases><enabled>true</enabled></releases>
-          <snapshots><enabled>true</enabled></snapshots>
+          <url>https://maven.pkg.github.com/Unknow0/package</url>
         </repository>
       </repositories>
     </profile>
