@@ -1,0 +1,5 @@
+name: Unknow0 maven deploy settings
+description: setup packaging
+runs:
+    using: node12
+    main: main.js
