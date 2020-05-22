@@ -18,6 +18,12 @@ fs.writeFileSync(require('os').homedir()+'/.m2/settings.xml', '<settings xmlns="
           '<url>https://maven.pkg.github.com/Unknow0/package</url>'+
         '</repository>'+
       '</repositories>'+
+      '<pluginRepositories>'+
+        '<pluginRepository>'+
+          '<id>github</id>'+
+          '<url>https://maven.pkg.github.com/Unknow0/package</url>'+
+        '</pluginRepository>'+
+      '</pluginRepositories>'+
     '</profile>'+
   '</profiles>'+
   '<servers>'+
